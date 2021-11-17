@@ -19,3 +19,8 @@ if __name__ == "__main__":
                 player['experience'] = False
 
         return players
+
+    def balance_teams(players):
+        panthers = []
+        bandits = []
+        warriors = []
